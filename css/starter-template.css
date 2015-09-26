@@ -1,12 +1,4 @@
-@font-face {
-    font-family: TokyoOneSolid;
-    src: url(fonts/Tokyo-OneSolid.otf);
 
-}
-.tokyocustomfont { 
-    font-family: TokyoOneSolid;
-    font-size: 30px;
-}
 
 body {
   padding-top: 50px;
