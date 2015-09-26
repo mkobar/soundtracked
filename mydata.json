@@ -1,0 +1,24 @@
+{
+    "items": [
+    {
+        "song": "Macarena",
+        "location": {"lat":40.7453286, "lon":-73.9855151},
+        "mood": "rushing"
+        },
+    {
+        "song": "Hello World",
+        "location": {"lat":333.575, "lon":4.46},
+        "mood": "strolling"
+    },
+    {
+        "song": "Let it be",
+        "location": {"lat":333.575, "lon":4.46},
+        "mood": "walking"
+        },
+    {
+        "song": "Coin",
+        "location": {"lat":40.74353417699335, "lon":-73.98458361625671},
+        "mood": "rushing"
+    }
+    ]
+}
