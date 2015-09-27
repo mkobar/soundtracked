@@ -24,6 +24,18 @@
   </head>
   <body>
 	  <div class="log"></div>
-	  <select id="songlist" size="5"></select>
+	  <select id="songlist" size="5" onClick="myFunction()"></select>
+
+	  <div id="saveit-key"></div>
+
+	  <script>
+		  function myFunction() {
+			// set the background color of <body> to yellow
+			//document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
+        		var x = document.getElementById("songlist").selectedIndex;
+        		var y = document.getElementById("songlist").options[x].value;
+			document.getElementById("saveit-key").innerHTML = "save to db key="+y+"<br>song= "+document.getElementById("songlist").options[x].innerHTML;
+		}		  
+	  </script>
   </body>
 </html>
