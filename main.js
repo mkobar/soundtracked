@@ -33,7 +33,7 @@
             _.each(response.result, function(v, i) {
               //var widget = rdioUtils.trackWidget(v);
               //$('body').append(widget.element());
-	      console.log( "result: " + v.name + " key: " + v.key);
+	      console.log( "result: " + v.name + " artist: " + v.artist + " key: " + v.key);
 	      //$('body').append('<p>' + v.name + "&nbsp;  " + v.key);
 	      //$('#songlist').append('<p>' + v.name + "&nbsp;  " + v.key);
 	      $('#songlist').append('<option value="' + v.key + '"><b>' + v.name + '</b> - ' + v.artist + '</option>');
